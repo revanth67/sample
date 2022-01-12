@@ -1,0 +1,15 @@
+#logo{
+    width: 100%;
+    color: turquoise;
+    background-color: black;
+}
+header{
+    border:black;
+    
+    background-color: blue;
+}
+.logos{
+    width: 25%;
+    color:white;
+    border: 10px yellow;
+}

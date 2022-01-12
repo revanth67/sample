@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/child.jpg" type="image/x-icon">
+    <title>Login page</title>
+</head>
+<body>
+    <form action="./layout.html">
+        <div class="form-action">
+            <label for="username">User Name</label>
+            <input type="text" name="username" id="username" required>
+         </div>
+         <div class="form-action">
+             <label for="password">Password</label>
+             <input type="password" name="password" id="password" required>
+         </div>
+         <div class="form-action">
+             <input type="number"
+             name="number"
+             id="number"
+             placeholder="Phone number" required>
+         </div>
+         <div class="form-action">
+             <label for="descriper">Enter Address</label>
+             <textarea name="descripter" id="descripter" cols="30" rows="10"
+             placeholder="Enter in capital letters" required></textarea>
+         </div>
+         <div class="form-action">
+             <label for="choose">Choose</label>
+             <select name="choose" id="choose" required>
+                 <option value="none">---Choose---</option>
+                 <option value="one">one</option>
+                 <option value="two">two</option>
+
+             </select>  
+            
+        </div>
+        <div class="form-action">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="male " id="male">
+            <label for="female">Female</label>
+            <input type="radio" value="female" name="gender" id="female">
+        </div>
+        <div class="form-action">
+            <label for="hyd">Hyderabad</label>
+            <input type="checkbox" name="hyd" id="hyd">
+            <label for="ban">Bangalore</label>
+            <input type="checkbox" name="bang" id="bang">
+        </div>
+        <div class="form-action">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <button type="submit">Login
+        </button>
+
+
+    </form>
+    
+</body>
+</html>
